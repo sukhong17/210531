@@ -12,6 +12,6 @@
 	${i}   <br/>
   </c:forEach>
   ${person.address.city}
-  <br>
+
 </body>
 </html>
