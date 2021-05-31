@@ -1,5 +1,7 @@
 package service;
 
+import java.util.List;
+
 import dao.BoardDAO;
 import dao.UserDAO;
 import vo.BoardVO;
@@ -21,6 +23,14 @@ private BoardDAO dao = null;
 		dao.write(vo);
 		
 	}
+	@Override
+		public List<BoardVO> boardList() {
+			return dao.boardList();
+		}
 	
-	
+	@Override
+		public BoardVO boardRead(int bno) {
+			// TODO Auto-generated method stub
+			return dao.boardRead(bno);
+		}
 }

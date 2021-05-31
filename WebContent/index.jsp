@@ -21,7 +21,7 @@
   	              <div>
     	                <h1>${login.id}환영합니다.</h1>
         	            <a href="${pageContext.request.contextPath}/board/write.jsp" class="tn">게시글쓰기</a> &nbsp;&nbsp;
-            	        <a href="#" class="tn">게시글리스트</a> &nbsp;&nbsp;
+            	        <a href="${pageContext.request.contextPath}/board/list.do" class="tn">게시글리스트</a> &nbsp;&nbsp;
                 	    <a href="${pageContext.request.contextPath}/auth/logout" class="tn">로그아웃</a> 
                 	</div>
                 </c:if>

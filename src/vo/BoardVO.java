@@ -3,7 +3,7 @@ package vo;
 import java.sql.Timestamp;
 
 public class BoardVO {
-	private int bno;
+	private int bno; //db int
 	private String id;
 	private String title;
 	private String content;

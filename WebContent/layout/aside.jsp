@@ -5,7 +5,7 @@
 	<br>
 	<ul>
 	 <c:if test="${!empty login}">
-		<li><a href="#" class="tn">게시글 리스트</a></li>
+		<li><a href="${pageContext.request.contextPath}/board/list.do" class="tn">게시글리스트</a>  </li>
 		<li><a href="${pageContext.request.contextPath}/board/write.jsp" class="tn">게시글 쓰기</a></li>
 		<li><a href="${pageContext.request.contextPath}/auth/logout" class="tn">로그아웃</a></li>
 	 </c:if>
