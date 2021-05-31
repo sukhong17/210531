@@ -1,0 +1,17 @@
+oracle
+driver=oracle.jdbc.OracleDriver
+url=jdbc:oracle:thin:@localhost:1521:xe
+user=hr
+pw=hr
+
+mariadb
+__driver=org.mariadb.jdbc.Driver
+__url=jdbc:mariadb://jeongps.com:3306/japan_dbsxodnjs456
+__user=dbsxodnjs456
+__pw=dljeQPcyr0WZUKUS
+
+mariadb    
+_driver=org.mariadb.jdbc.Driver
+_url=jdbc:mariadb://127.0.0.1:3306/test1
+_user=root
+_pw=1234
